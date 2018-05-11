@@ -2,10 +2,10 @@
 <recordtable
 embeddedrepository="False"
 id="35dafadc-416e-4c0c-80ae-c5b7e5d35fbb"
-mode="Global"
+mode="Desktop"
 rxversion="8.1">
 	<name>
-		Recording1
+		StartBrowser
 	</name>
 	<repeatcount>
 		1
@@ -23,12 +23,30 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Recording1"
+	classname="StartBrowser"
 	namespace="Ranorex_EOH_Demo">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.edgewordstraining.co.uk/demo-site/
+			</url>
+		</openwebsiterecorditem>
 	</recorditems>
 	<repository
 	id="d2d4a9a5-54b0-4cc2-9090-f083256e7bee"
@@ -46,7 +64,7 @@ rxversion="8.1">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Recording1.UserCode.cs
+		StartBrowser.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

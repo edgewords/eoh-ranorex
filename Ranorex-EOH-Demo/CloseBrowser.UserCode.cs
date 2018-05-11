@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace Ranorex_EOH_Demo
 {
-    public partial class Recording1
+    public partial class CloseBrowser
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

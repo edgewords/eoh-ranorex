@@ -27,6 +27,11 @@ namespace Ranorex_EOH_Demo
     public partial class Ranorex_EOH_DemoRepository : RepoGenBaseFolder
     {
         static Ranorex_EOH_DemoRepository instance = new Ranorex_EOH_DemoRepository();
+        Ranorex_EOH_DemoRepositoryFolders.EdgewordsShopECommerceDemoSiteForAppFolder _edgewordsshopecommercedemositefor;
+        Ranorex_EOH_DemoRepositoryFolders.ExplorerAppFolder _explorer;
+        Ranorex_EOH_DemoRepositoryFolders.CapEdgewordsShopAppFolder _capedgewordsshop;
+        Ranorex_EOH_DemoRepositoryFolders.CartEdgewordsShopAppFolder _cartedgewordsshop;
+        Ranorex_EOH_DemoRepositoryFolders.ProductsEdgewordsShopAppFolder _productsedgewordsshop;
 
         /// <summary>
         /// Gets the singleton class instance representing the Ranorex_EOH_DemoRepository element repository.
@@ -43,6 +48,11 @@ namespace Ranorex_EOH_Demo
         public Ranorex_EOH_DemoRepository() 
             : base("Ranorex_EOH_DemoRepository", "/", null, 0, false, "2c810a72-6ab7-4e4e-a2de-b0ec28e8f87f", ".\\RepositoryImages\\Ranorex_EOH_DemoRepository2c810a72.rximgres")
         {
+            _edgewordsshopecommercedemositefor = new Ranorex_EOH_DemoRepositoryFolders.EdgewordsShopECommerceDemoSiteForAppFolder(this);
+            _explorer = new Ranorex_EOH_DemoRepositoryFolders.ExplorerAppFolder(this);
+            _capedgewordsshop = new Ranorex_EOH_DemoRepositoryFolders.CapEdgewordsShopAppFolder(this);
+            _cartedgewordsshop = new Ranorex_EOH_DemoRepositoryFolders.CartEdgewordsShopAppFolder(this);
+            _productsedgewordsshop = new Ranorex_EOH_DemoRepositoryFolders.ProductsEdgewordsShopAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +70,51 @@ namespace Ranorex_EOH_Demo
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The EdgewordsShopECommerceDemoSiteFor folder.
+        /// </summary>
+        [RepositoryFolder("081c795b-a9fd-417f-abac-92142e6e4a48")]
+        public virtual Ranorex_EOH_DemoRepositoryFolders.EdgewordsShopECommerceDemoSiteForAppFolder EdgewordsShopECommerceDemoSiteFor
+        {
+            get { return _edgewordsshopecommercedemositefor; }
+        }
+
+        /// <summary>
+        /// The Explorer folder.
+        /// </summary>
+        [RepositoryFolder("af608d87-04ee-4fe0-a79a-c98cb572988e")]
+        public virtual Ranorex_EOH_DemoRepositoryFolders.ExplorerAppFolder Explorer
+        {
+            get { return _explorer; }
+        }
+
+        /// <summary>
+        /// The CapEdgewordsShop folder.
+        /// </summary>
+        [RepositoryFolder("dc930d67-999e-4f1f-8513-3c293a49e105")]
+        public virtual Ranorex_EOH_DemoRepositoryFolders.CapEdgewordsShopAppFolder CapEdgewordsShop
+        {
+            get { return _capedgewordsshop; }
+        }
+
+        /// <summary>
+        /// The CartEdgewordsShop folder.
+        /// </summary>
+        [RepositoryFolder("cb48b348-175f-4759-a204-365716b4009a")]
+        public virtual Ranorex_EOH_DemoRepositoryFolders.CartEdgewordsShopAppFolder CartEdgewordsShop
+        {
+            get { return _cartedgewordsshop; }
+        }
+
+        /// <summary>
+        /// The ProductsEdgewordsShop folder.
+        /// </summary>
+        [RepositoryFolder("57112312-ec3b-4e44-ad27-0e3f37dca2df")]
+        public virtual Ranorex_EOH_DemoRepositoryFolders.ProductsEdgewordsShopAppFolder ProductsEdgewordsShop
+        {
+            get { return _productsedgewordsshop; }
+        }
     }
 
     /// <summary>
@@ -68,6 +123,440 @@ namespace Ranorex_EOH_Demo
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
     public partial class Ranorex_EOH_DemoRepositoryFolders
     {
+        /// <summary>
+        /// The EdgewordsShopECommerceDemoSiteForAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("081c795b-a9fd-417f-abac-92142e6e4a48")]
+        public partial class EdgewordsShopECommerceDemoSiteForAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _woocommerceproductsearchfield0Info;
+
+            /// <summary>
+            /// Creates a new EdgewordsShopECommerceDemoSiteFor  folder.
+            /// </summary>
+            public EdgewordsShopECommerceDemoSiteForAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("EdgewordsShopECommerceDemoSiteFor", "/dom[@caption~'^Edgewords\\ Shop\\ –\\ e-commer']", parentFolder, 30000, null, false, "081c795b-a9fd-417f-abac-92142e6e4a48", "")
+            {
+                _woocommerceproductsearchfield0Info = new RepoItemInfo(this, "WoocommerceProductSearchField0", ".//input[#'woocommerce-product-search-field-0']", 30000, null, "6989f92a-9ce5-4097-9491-9e58bc2e6c61");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("081c795b-a9fd-417f-abac-92142e6e4a48")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("081c795b-a9fd-417f-abac-92142e6e4a48")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WoocommerceProductSearchField0 item.
+            /// </summary>
+            [RepositoryItem("6989f92a-9ce5-4097-9491-9e58bc2e6c61")]
+            public virtual Ranorex.InputTag WoocommerceProductSearchField0
+            {
+                get
+                {
+                    return _woocommerceproductsearchfield0Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WoocommerceProductSearchField0 item info.
+            /// </summary>
+            [RepositoryItemInfo("6989f92a-9ce5-4097-9491-9e58bc2e6c61")]
+            public virtual RepoItemInfo WoocommerceProductSearchField0Info
+            {
+                get
+                {
+                    return _woocommerceproductsearchfield0Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExplorerAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("af608d87-04ee-4fe0-a79a-c98cb572988e")]
+        public partial class ExplorerAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _googlechrome1runningwindowInfo;
+
+            /// <summary>
+            /// Creates a new Explorer  folder.
+            /// </summary>
+            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "af608d87-04ee-4fe0-a79a-c98cb572988e", "")
+            {
+                _googlechrome1runningwindowInfo = new RepoItemInfo(this, "GoogleChrome1RunningWindow", "container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Google\\ Chrome\\ -\\ 1\\ running']", 30000, null, "f3dde759-7ee9-4a91-8109-dc25640d7a51");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("af608d87-04ee-4fe0-a79a-c98cb572988e")]
+            public virtual Ranorex.MenuBar Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("af608d87-04ee-4fe0-a79a-c98cb572988e")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GoogleChrome1RunningWindow item.
+            /// </summary>
+            [RepositoryItem("f3dde759-7ee9-4a91-8109-dc25640d7a51")]
+            public virtual Ranorex.Button GoogleChrome1RunningWindow
+            {
+                get
+                {
+                    return _googlechrome1runningwindowInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GoogleChrome1RunningWindow item info.
+            /// </summary>
+            [RepositoryItemInfo("f3dde759-7ee9-4a91-8109-dc25640d7a51")]
+            public virtual RepoItemInfo GoogleChrome1RunningWindowInfo
+            {
+                get
+                {
+                    return _googlechrome1runningwindowInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CapEdgewordsShopAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("dc930d67-999e-4f1f-8513-3c293a49e105")]
+        public partial class CapEdgewordsShopAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _addtocartInfo;
+            RepoItemInfo _divtagcaphasbeenaddedtoyourcartInfo;
+            RepoItemInfo _viewcartInfo;
+
+            /// <summary>
+            /// Creates a new CapEdgewordsShop  folder.
+            /// </summary>
+            public CapEdgewordsShopAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CapEdgewordsShop", "/dom[@caption='Cap – Edgewords Shop']", parentFolder, 30000, null, false, "dc930d67-999e-4f1f-8513-3c293a49e105", "")
+            {
+                _addtocartInfo = new RepoItemInfo(this, "AddToCart", ".//div[#'product-29']/?/?/form[@action='https://www.edgewordstraining.co.uk/demo-site/product/cap/']/button[@innertext='Add to cart']", 30000, null, "4149eb67-9867-475e-87d8-add3640ec8d4");
+                _divtagcaphasbeenaddedtoyourcartInfo = new RepoItemInfo(this, "DivTagCapHasBeenAddedToYourCart", ".//div[#'content']//div[@innertext~'^\\ “Cap”\\ has\\ been\\ added\\ to\\ ']", 30000, null, "de7825f2-5e37-40d6-af73-16b487a1d0a7");
+                _viewcartInfo = new RepoItemInfo(this, "ViewCart", ".//div[#'content']//div[@innertext~'^\\ “Cap”\\ has\\ been\\ added\\ to\\ ']/a[@innertext='View cart']", 30000, null, "6dd1cd33-2a04-438f-8e64-cd917b6dbd64");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("dc930d67-999e-4f1f-8513-3c293a49e105")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("dc930d67-999e-4f1f-8513-3c293a49e105")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddToCart item.
+            /// </summary>
+            [RepositoryItem("4149eb67-9867-475e-87d8-add3640ec8d4")]
+            public virtual Ranorex.ButtonTag AddToCart
+            {
+                get
+                {
+                    return _addtocartInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddToCart item info.
+            /// </summary>
+            [RepositoryItemInfo("4149eb67-9867-475e-87d8-add3640ec8d4")]
+            public virtual RepoItemInfo AddToCartInfo
+            {
+                get
+                {
+                    return _addtocartInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DivTagCapHasBeenAddedToYourCart item.
+            /// </summary>
+            [RepositoryItem("de7825f2-5e37-40d6-af73-16b487a1d0a7")]
+            public virtual Ranorex.DivTag DivTagCapHasBeenAddedToYourCart
+            {
+                get
+                {
+                    return _divtagcaphasbeenaddedtoyourcartInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTagCapHasBeenAddedToYourCart item info.
+            /// </summary>
+            [RepositoryItemInfo("de7825f2-5e37-40d6-af73-16b487a1d0a7")]
+            public virtual RepoItemInfo DivTagCapHasBeenAddedToYourCartInfo
+            {
+                get
+                {
+                    return _divtagcaphasbeenaddedtoyourcartInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ViewCart item.
+            /// </summary>
+            [RepositoryItem("6dd1cd33-2a04-438f-8e64-cd917b6dbd64")]
+            public virtual Ranorex.ATag ViewCart
+            {
+                get
+                {
+                    return _viewcartInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ViewCart item info.
+            /// </summary>
+            [RepositoryItemInfo("6dd1cd33-2a04-438f-8e64-cd917b6dbd64")]
+            public virtual RepoItemInfo ViewCartInfo
+            {
+                get
+                {
+                    return _viewcartInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CartEdgewordsShopAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("cb48b348-175f-4759-a204-365716b4009a")]
+        public partial class CartEdgewordsShopAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _httpswwwedgewordstrainingcoukdemoInfo;
+            RepoItemInfo _removeitemInfo;
+            RepoItemInfo _atagreturntoshopInfo;
+
+            /// <summary>
+            /// Creates a new CartEdgewordsShop  folder.
+            /// </summary>
+            public CartEdgewordsShopAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CartEdgewordsShop", "/dom[@caption='Cart – Edgewords Shop']", parentFolder, 30000, null, false, "cb48b348-175f-4759-a204-365716b4009a", "")
+            {
+                _httpswwwedgewordstrainingcoukdemoInfo = new RepoItemInfo(this, "HttpsWwwEdgewordstrainingCoUkDemo", ".//div[#'post-5']//form[@action='https://www.edgewordstraining.co.uk/demo-site/cart/']/table/tbody/tr[1]/td[2]/?/?/img[@alt='']", 30000, null, "17436576-87cf-4c6f-b41f-9b1ea1b44a18");
+                _removeitemInfo = new RepoItemInfo(this, "RemoveItem", ".//div[#'post-5']//form[@action='https://www.edgewordstraining.co.uk/demo-site/cart/']/table/tbody/tr[1]/td[1]/a[@innertext='×']", 30000, null, "32e83edd-bf22-4d23-8e08-7aa118639051");
+                _atagreturntoshopInfo = new RepoItemInfo(this, "ATagReturnToShop", ".//div[#'post-5']/div//a[@innertext='Return to shop']", 30000, null, "52a27ef2-27ff-41ee-bf71-f6ebba8319a7");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("cb48b348-175f-4759-a204-365716b4009a")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("cb48b348-175f-4759-a204-365716b4009a")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwEdgewordstrainingCoUkDemo item.
+            /// </summary>
+            [RepositoryItem("17436576-87cf-4c6f-b41f-9b1ea1b44a18")]
+            public virtual Ranorex.ImgTag HttpsWwwEdgewordstrainingCoUkDemo
+            {
+                get
+                {
+                    return _httpswwwedgewordstrainingcoukdemoInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwEdgewordstrainingCoUkDemo item info.
+            /// </summary>
+            [RepositoryItemInfo("17436576-87cf-4c6f-b41f-9b1ea1b44a18")]
+            public virtual RepoItemInfo HttpsWwwEdgewordstrainingCoUkDemoInfo
+            {
+                get
+                {
+                    return _httpswwwedgewordstrainingcoukdemoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RemoveItem item.
+            /// </summary>
+            [RepositoryItem("32e83edd-bf22-4d23-8e08-7aa118639051")]
+            public virtual Ranorex.ATag RemoveItem
+            {
+                get
+                {
+                    return _removeitemInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RemoveItem item info.
+            /// </summary>
+            [RepositoryItemInfo("32e83edd-bf22-4d23-8e08-7aa118639051")]
+            public virtual RepoItemInfo RemoveItemInfo
+            {
+                get
+                {
+                    return _removeitemInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ATagReturnToShop item.
+            /// </summary>
+            [RepositoryItem("52a27ef2-27ff-41ee-bf71-f6ebba8319a7")]
+            public virtual Ranorex.ATag ATagReturnToShop
+            {
+                get
+                {
+                    return _atagreturntoshopInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ATagReturnToShop item info.
+            /// </summary>
+            [RepositoryItemInfo("52a27ef2-27ff-41ee-bf71-f6ebba8319a7")]
+            public virtual RepoItemInfo ATagReturnToShopInfo
+            {
+                get
+                {
+                    return _atagreturntoshopInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ProductsEdgewordsShopAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("57112312-ec3b-4e44-ad27-0e3f37dca2df")]
+        public partial class ProductsEdgewordsShopAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _edgewordsshopInfo;
+
+            /// <summary>
+            /// Creates a new ProductsEdgewordsShop  folder.
+            /// </summary>
+            public ProductsEdgewordsShopAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ProductsEdgewordsShop", "/dom[1]", parentFolder, 30000, null, false, "57112312-ec3b-4e44-ad27-0e3f37dca2df", "")
+            {
+                _edgewordsshopInfo = new RepoItemInfo(this, "EdgewordsShop", ".//header[#'masthead']/div/div[1]/?/?/a[@innertext='Edgewords Shop']", 30000, null, "8888489e-5883-43c2-8e6e-ea3060320c28");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("57112312-ec3b-4e44-ad27-0e3f37dca2df")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("57112312-ec3b-4e44-ad27-0e3f37dca2df")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EdgewordsShop item.
+            /// </summary>
+            [RepositoryItem("8888489e-5883-43c2-8e6e-ea3060320c28")]
+            public virtual Ranorex.ATag EdgewordsShop
+            {
+                get
+                {
+                    return _edgewordsshopInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EdgewordsShop item info.
+            /// </summary>
+            [RepositoryItemInfo("8888489e-5883-43c2-8e6e-ea3060320c28")]
+            public virtual RepoItemInfo EdgewordsShopInfo
+            {
+                get
+                {
+                    return _edgewordsshopInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

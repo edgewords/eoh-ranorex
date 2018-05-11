@@ -24,29 +24,29 @@ namespace Ranorex_EOH_Demo
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The CloseBrowser recording.
     /// </summary>
-    [TestModule("35dafadc-416e-4c0c-80ae-c5b7e5d35fbb", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("62f36ae0-664e-4330-bdf1-e8f401307452", ModuleType.Recording, 1)]
+    public partial class CloseBrowser : ITestModule
     {
         /// <summary>
         /// Holds an instance of the Ranorex_EOH_DemoRepository repository.
         /// </summary>
         public static Ranorex_EOH_DemoRepository repo = Ranorex_EOH_DemoRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static CloseBrowser instance = new CloseBrowser();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public CloseBrowser()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static CloseBrowser Instance
         {
             get { return instance; }
         }
@@ -79,6 +79,10 @@ namespace Ranorex_EOH_Demo
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ProductsEdgewordsShop'.", repo.ProductsEdgewordsShop.SelfInfo, new RecordItemIndex(0));
+            Host.Current.CloseApplication(repo.ProductsEdgewordsShop.Self, new Duration(0));
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

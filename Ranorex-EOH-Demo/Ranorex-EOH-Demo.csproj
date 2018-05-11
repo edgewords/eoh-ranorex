@@ -110,8 +110,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddToBasket.cs">
+      <BoundTo>9b29ef4e-381f-4f1e-b370-1909087dda2e</BoundTo>
+      <DependentUpon>AddToBasket.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a3525198-372e-416e-a370-c73ef6fa9f74</id>
+    </Compile>
+    <Compile Include="AddToBasket.UserCode.cs">
+      <BoundTo>9b29ef4e-381f-4f1e-b370-1909087dda2e</BoundTo>
+      <DependentUpon>AddToBasket.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>19897186-08a2-4915-9c85-2693ca6009e9</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>77457d56-9264-415d-8a6d-88eccc5ce155</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>5b855332-fd51-4997-ad2f-db13e6ae2f6c</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>17e56c02-b103-4527-a85c-7567428962a7</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>5b855332-fd51-4997-ad2f-db13e6ae2f6c</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8254cb15-e5ec-4baa-863f-6c8bbb70e716</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>74e5f274-649f-4d1c-bf5e-30dd57eb2ef8</id>
@@ -122,22 +146,56 @@
       <RepositoryCode>true</RepositoryCode>
       <id>85c16301-752a-4db5-a171-0c7ba6318920</id>
     </Compile>
-    <Compile Include="Recording1.cs">
+    <Compile Include="RemoveFromBasket.cs">
+      <BoundTo>be2bb726-a78d-4979-90dc-945247a0efe4</BoundTo>
+      <DependentUpon>RemoveFromBasket.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4188106a-91ce-4503-85e1-dbee54519def</id>
+    </Compile>
+    <Compile Include="RemoveFromBasket.UserCode.cs">
+      <BoundTo>be2bb726-a78d-4979-90dc-945247a0efe4</BoundTo>
+      <DependentUpon>RemoveFromBasket.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>85f53215-a6e2-4cbd-b31d-2720ad121f58</id>
+    </Compile>
+    <Compile Include="StartBrowser.cs">
       <BoundTo>c148f535-7136-4063-b64a-404d0eb26ee6</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>StartBrowser.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>68762092-1792-42c7-996f-47f903539425</id>
     </Compile>
-    <Compile Include="Recording1.UserCode.cs">
+    <Compile Include="StartBrowser.UserCode.cs">
       <BoundTo>c148f535-7136-4063-b64a-404d0eb26ee6</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>StartBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>373fde06-5371-4346-bc02-5317e6fca575</id>
     </Compile>
+    <Compile Include="Search.cs">
+      <BoundTo>901ec580-209c-4b0e-b425-625ca800e92e</BoundTo>
+      <DependentUpon>Search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>80f77156-9f30-4c52-8e88-afa6c61de1f2</id>
+    </Compile>
+    <Compile Include="Search.UserCode.cs">
+      <BoundTo>901ec580-209c-4b0e-b425-625ca800e92e</BoundTo>
+      <DependentUpon>Search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>92b032b8-0e30-4efc-95c2-ab2d972a44d9</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AddToBasket.rxrec">
+      <BoundTo>638231de-fec5-4dfb-b290-be0f91f06f6e</BoundTo>
+      <id>9b29ef4e-381f-4f1e-b370-1909087dda2e</id>
+      <recordtableid>181e5bfc-bd64-4229-b2ee-2d25dfa320f6</recordtableid>
+    </None>
     <None Include="app.config">
       <id>99a5d5b0-1dc7-4bad-8ea2-f3efd6556f20</id>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>638231de-fec5-4dfb-b290-be0f91f06f6e</BoundTo>
+      <id>5b855332-fd51-4997-ad2f-db13e6ae2f6c</id>
+      <recordtableid>62f36ae0-664e-4330-bdf1-e8f401307452</recordtableid>
     </None>
     <None Include="Ranorex-EOH-DemoRepository.rximg">
       <BoundTo>638231de-fec5-4dfb-b290-be0f91f06f6e</BoundTo>
@@ -150,10 +208,20 @@
       <repoid>d2d4a9a5-54b0-4cc2-9090-f083256e7bee</repoid>
       <reporootid>2c810a72-6ab7-4e4e-a2de-b0ec28e8f87f</reporootid>
     </None>
-    <None Include="Recording1.rxrec">
+    <None Include="RemoveFromBasket.rxrec">
+      <BoundTo>638231de-fec5-4dfb-b290-be0f91f06f6e</BoundTo>
+      <id>be2bb726-a78d-4979-90dc-945247a0efe4</id>
+      <recordtableid>6696f77e-e433-4321-a565-5742898c32db</recordtableid>
+    </None>
+    <None Include="StartBrowser.rxrec">
       <BoundTo>638231de-fec5-4dfb-b290-be0f91f06f6e</BoundTo>
       <id>c148f535-7136-4063-b64a-404d0eb26ee6</id>
       <recordtableid>35dafadc-416e-4c0c-80ae-c5b7e5d35fbb</recordtableid>
+    </None>
+    <None Include="Search.rxrec">
+      <BoundTo>638231de-fec5-4dfb-b290-be0f91f06f6e</BoundTo>
+      <id>901ec580-209c-4b0e-b425-625ca800e92e</id>
+      <recordtableid>904d72ff-5ba0-457e-9d08-7e09409ef493</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

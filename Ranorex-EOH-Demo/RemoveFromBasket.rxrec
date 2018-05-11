@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6696f77e-e433-4321-a565-5742898c32db"
+mode="Global"
+rxversion="8.1">
+	<name>
+		RemoveFromBasket
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RemoveFromBasket"
+	namespace="Ranorex_EOH_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="22;22"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="af60b7c1-9c82-4355-8553-81adef9925b6"
+		sx="339"
+		sy="729"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="32e83edd-bf22-4d23-8e08-7aa118639051"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="317,707,46,46"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						remove
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#215;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://www.edgewordstraining.co.uk/demo-site/cart/?remove_item=6ea9ab1baa0efb9e19094440c317e21b&amp;_wpnonce=45c34b48ec
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-product_id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-product_sku"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@caption='Cart &#8211; Edgewords Shop']//div[#'post-5']//form[@action='https://www.edgewordstraining.co.uk/demo-site/cart/']/table/tbody/tr[1]/td[1]/a[@innertext='&#215;']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3ee3ceab-f737-4b5c-a298-49b85af344a0">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACdAKIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKQ9a
+WkIoASilxRigBKKXFGKAEopcUYoASilxRigBKKXFGKAEopcUYoASilxRigBKKXFGKAEopcUYoASi
+lxRQAtFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFACM
+QqlmIAAySe1Q/bLX/n5h/wC+xRe/8eM//XNv5VQ03T7Wexjkli3O2cncR3PvUtu9kbQhDk5pF/7Z
+a/8APzD/AN9ij7Za/wDPzD/32Kh/smx/54f+Pt/jR/ZNj/zw/wDH2/xo94dqPd/h/mTfbLX/AJ+Y
+f++xR9stf+fmH/vsVD/ZNj/zw/8AH2/xo/smx/54f+Pt/jR7wWo93+H+ZN9stf8An5h/77FSRzRS
+58qRHx12sDiqv9k2P/PD/wAfb/Gq+josd1fIgwquAB7Zald3swcKbi3FvQ1aKKKswCiiigAooooA
+KKKKACiiigAooooAKKKKAIL3/jxn/wCubfyqHR/+QZD/AMC/9CNTXv8Ax4z/APXNv5VDo/8AyDIf
++Bf+hGp+0br+C/X9GXarXF9BbttZssP4V5pNQnNvall4ZjtB9KzLOyW7ikbzcSDoP8amUneyCnTT
+XNLY0YtTtpG25ZCf7wq5WJJp3k2ZllkCyDovb6fWrOj3DPG0THOzlfpRGTvZjnTjy80DSrM0r/j+
+v/8Arp/Vq06zNK/4/r//AK6f1aqe6FT/AIc/l+Zp0UUVRgFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAQXv/HjP/1zb+VQ6P8A8gyH/gX/AKEamvf+PGf/AK5t/KodH/5BkP8AwL/0I1P2jdfwX6/ow1aM
+yWeV/gbcfpVLTJLeFXmkfEg6D29vWtkjIwelY91ZW3nlIrqJJCQPKdxnJ6e9TKLT5kOnOPLySdit
+Jb20VrZOIyrvbE5jQks3ydcfU1Nok8HmMxmRS2FVWbBb6A1csod8Vg5QMi2uDn1OzH8jWfNpvljz
+Wh2eTY5DKcYlHfjvV8qvcyVRqPKdBWZpX/H9f/8AXT+rVp1maV/x/X//AF0/q1J7o0p/w5/L8zTo
+ooqjAKKKKACiiigAooooAKKKKACiiigAooooAgvf+PGf/rm38qh0f/kGQ/8AAv8A0I1amj82CSPO
+N6lc+mRWamkzxqFTUJFUdAAQP51Lve6N4OLpuMnbU1azrhTb3EzTRrJa3DLubuhwF5HcHj9ab/Zl
+1/0Epv1/xpkmkTSxmOW/kdD1VgSD+tF32F7On/P+DNOGMQwpEudqKFGfQCodTIXTLon/AJ5MP0qr
+b/2nau0Uyfaoh9x1Kg49Dkj+v1plxb6jqJ8uUpb2xPKnljjnsSMZ96oyW5rVmaV/x/X/AP10/q1H
+9mXX/QSm/X/Gp7CxNm0rNMZTIQSSMevv71Gra0Oj3IwklK9/XuXKKKKs5gooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="71;26"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="416a4334-f9db-41d3-8921-5c613cb8d003"
+		sx="356"
+		sy="790"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="52a27ef2-27ff-41ee-bf71-f6ebba8319a7"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="285,764,183,56"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						button wc-backward
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;			Return to shop	&#9;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://www.edgewordstraining.co.uk/demo-site/shop/
+					</attribute>
+				</element>
+				<path>
+					/dom[@caption='Cart &#8211; Edgewords Shop']//div[#'post-5']/div//a[@innertext='Return to shop']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b771ed4a-79dd-4bab-ab09-8b1594a75937">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACJAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAGLEqzNKCdzAA+nFMa1U7gHdUc5Z
+AeD/AFqaigCJ4FZkZWZGQYBXHT05pPsqeXKmWxJ94556VNRQAKNqgDsMVC1uC7Mkjx7/AL20jn8x
+U1FAEP2Yb2YSONwG4Aj5sf57ULbIqRKC2Ijlf/r1NRQBHLCJGV9zIyZwy47/AFpZYhNEY2JwepHW
+n0UARPCXJIlkUEYIBGP1HFSKiogRRhQMAe1LRQBClv5e0LLIEU8JkY+nTNNa0Qq6b3COSSoIxk/h
+ViigBhiUypJk5QEChYlWZpQTuYAH04p9FAEJtxuYpI8e/khcYz68in+Uvnebk7tu2n0UARfZ02Sq
+ckSklqQ24ZFVpHOxgyscZGPwqaigCtIgnu4yFYCLJJIIz6D39asMAylWGQRgilooAijg8vaBLJtX
+opIx/LNAt0EcqZbEpJP41LRQBGYVKxrk4jII/AVBHCzTXBLyRhm7dxj3H8qt0UARNbxmJI1ygQgq
+V6giorqPzkWD52bIJcjGB356VaooAjaFWljk5BjBAAPHNSUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFVr2+istnmq535xtA7f/rqzWXrH/H3Y/75/mtTJ2RrRipTSYv9u2v/ADzm/If40f27a/8APOb8
+h/jU9FFpdyuel/L+P/AIP7dtf+ec35D/ABo/t21/55zfkP8AGp6KLS7hz0v5fx/4BB/btr/zzm/I
+f40f27a/885vyH+NT0UWl3Dnpfy/j/wCD+3bX/nnN+Q/xo/t21/55zfkP8anootLuHPS/l/H/gEH
+9u2v/POb8h/jR/btr/zzm/If41PRRaXcOel/L+P/AACD+3bX/nnN+Q/xo/t21/55zfkP8anootLu
+HPS/l/H/AIBB/btr/wA85vyH+NH9u2v/ADzm/If41PRRaXcOel/L+P8AwCD+3bX/AJ5zfkP8aP7d
+tf8AnnN+Q/xqeii0u4c9L+X8f+AQf27a/wDPOb8h/jR/btr/AM85vyH+NT0UWl3Dnpfy/j/wCD+3
+bX/nnN+Q/wAaP7dtf+ec35D/ABqeii0u4c9L+X8f+AQf27a/885vyH+NH9u2v/POb8h/jU9FFpdw
+56X8v4/8Ag/t21/55zfkP8avW063MCzICFbOAevXFVZ/+Pab/rm38jTtH/5BkP8AwL/0I0K97MJK
+Dp80VbUu0UUVRgFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFZesf8fdj/AL5/mtalZesf8fdj/vn+a1M9jfD/AMT7
+/wAixRRRVGAUUU2SSOIAyOqA92OKAHUU2OWOUExyK+Ou05p1ABRSbl37Nw3YzjPOKWgAooooAKKK
+QsoYKWAY9Bnk0ALRRRQAUUUxJUd3RWyyHDDHSgB9FFFABRRRQAUUUUAMn/49pv8Arm38jTtH/wCQ
+ZD/wL/0I02f/AI9pv+ubfyNO0f8A5BkP/Av/AEI1P2jdfwX6/oy7RRRVGAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAVl6x/x92P++f5rWpWXrH/H3Y/75/mtTPY3w/8AE+/8ixRRRVGAVQ1UgfZyyFx5nKgZz+FX6huI
+POeJt23y33dM5oApWxR71p4YTDHGhVwQASfoKiXUnJEpuFyW5g8s9P8Ae9a0fs2Lszo2Ay4dcfe9
+6jjtJYmCx3TCEHITaD+GaAIEjmOrSYnxhQT8g5XPT/69TRTyMLzLf6tiF4HHFPktXN0J4pvLJADD
+bncKa9ixlkKzskcv30AHP40dA6kD3E7W9ltlKtM6qzBR3P0pZZLqK9Fsk+794V3Oo6bVPb6mny2u
+yKzG/PkzR9uuWAp15Yw3Ml08i/P9ojTdgZAIj/xNHUBbOSbz54JnEhjIIbbjqKhuY5m1SIJPsypK
+/IDt9frUWn272927rKzIbhrfY3oqkg/pir1zatLKksUpikQEZ254PtQBCXubiaVYJhEsR2/dB3H+
+lT2c5uLdZGGG5DAeoqOSzcyNJBcGIyD58LkH39qnghS3hWKPOB69aAKUVxM12UlnWJt2BC0fUexp
+qrO13eeRKseCCTtyTx0qc2UjyL5ly7xK24KVGc/WpY7bZLO+/Pm9sdOKAK32uaW3tljIWWfILEZx
+jqcVJFNNHPJbzOJGCb1cLj8xR9gH2aKMSkSRHKyAf0p0dqYvNlllMsrLjcRjA+lDBFUT3gslvDMp
+UdY9g5Gcda01O5QR3GazLO0eeyiDTt5J5MeBzz6+lalMAooopAMn/wCPab/rm38jTtH/AOQZD/wL
+/wBCNNn/AOPab/rm38jTtH/5BkP/AAL/ANCNT9o3X8F+v6Mu0UUVRgFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFZ
+esf8fdj/AL5/mtalZesf8fdj/vn+a1M9jfD/AMT7/wAixRRRVGAUUUUAFFFFABRRRQBRs4VnjiQS
+yi6hZDMkkhOcMD0OfTgitqsy5WRHS6h+Z4Qfkx98HqPrxxToNZtZId8rCFxw0bsAQaAJb8APa4AG
+Zif/ABxqKqJcvqN2knkvFDCCylhjeTwD9MZ/MVboAKKKKACiiigAooooAKKKKACiiigBk/8Ax7Tf
+9c2/kado/wDyDIf+Bf8AoRps/wDx7Tf9c2/kado//IMh/wCBf+hGp+0br+C/X9GXaKKKowCiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACqeoWJvDERMYjHkghc9ce/tVyik1fRlRk4PmiZf9kz/wDQQk/I/wCNH9kz/wDQ
+Qk/I/wCNalFLkRr9Yqf0kZf9kz/9BCT8j/jR/ZM//QQk/I/41qUUciD6xU/pIy/7Jn/6CEn5H/Gj
++yZ/+ghJ+R/xrUoo5EH1ip/SRl/2TP8A9BCT8j/jR/ZM/wD0EJPyP+NalFHIg+sVP6SMv+yZ/wDo
+ISfkf8aP7Jn/AOghJ+R/xrUoo5EH1ip/SRl/2TP/ANBCT8j/AI0f2TP/ANBCT8j/AI1qUUciD6xU
+/pIy/wCyZ/8AoISfkf8AGj+yZ/8AoISfkf8AGtSijkQfWKn9JGX/AGTP/wBBCT8j/jR/ZM//AEEJ
+PyP+NalFHIg+sVP6SMv+yZ/+ghJ+R/xo/smf/oISfkf8a1KKORB9Yqf0kZf9kz/9BCT8j/jR/ZM/
+/QQk/I/41qUUciD6xU/pIy/7Jn/6CEn5H/Gj+yZ/+ghJ+R/xrUoo5EH1ip/SRlHSJyCDqEhBGCMH
+/Gr9nb/ZbVId2/bnnGM85qaihRSJnVnNWYUUUVRkFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d2d4a9a5-54b0-4cc2-9090-f083256e7bee"
+	name="Ranorex_EOH_DemoRepository"
+	relativepath="Ranorex-EOH-DemoRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="Ranorex_EOH_DemoRepository"
+		namespace="Ranorex_EOH_Demo">
+		</codegen>
+		<rootfolder
+		id="2c810a72-6ab7-4e4e-a2de-b0ec28e8f87f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RemoveFromBasket.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
