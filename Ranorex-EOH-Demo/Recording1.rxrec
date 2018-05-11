@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="35dafadc-416e-4c0c-80ae-c5b7e5d35fbb"
+mode="Global"
+rxversion="8.1">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Ranorex_EOH_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="d2d4a9a5-54b0-4cc2-9090-f083256e7bee"
+	name="Ranorex_EOH_DemoRepository"
+	relativepath="Ranorex-EOH-DemoRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="Ranorex_EOH_DemoRepository"
+		namespace="Ranorex_EOH_Demo">
+		</codegen>
+		<rootfolder
+		id="2c810a72-6ab7-4e4e-a2de-b0ec28e8f87f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

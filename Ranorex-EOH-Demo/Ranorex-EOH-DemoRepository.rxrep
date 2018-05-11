@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="Ranorex-EOH-DemoRepository"
+id="d2d4a9a5-54b0-4cc2-9090-f083256e7bee"
+rxversion="8.1">
+  <codegen
+  classname="Ranorex-EOH-DemoRepository"
+  namespace="Ranorex_EOH_Demo"/>
+  <rootfolder
+  name="Root"
+  id="2c810a72-6ab7-4e4e-a2de-b0ec28e8f87f"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

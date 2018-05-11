@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Ranorex-EOH-Demo"
+      id="dacf5235-fc2a-4399-8a6b-9955aa019456"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Ranorex-EOH-Demo"
+      id="dacf5235-fc2a-4399-8a6b-9955aa019456"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
